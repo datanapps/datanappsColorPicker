@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+
+    <color name="grey5">#FFFFFF</color>
+    <color name="grey10">#CBCACB</color>
+    <color name="grey15">#7C7C7C</color>
+    <color name="grey20">#000000</color>
+
+
+    <color name="red5">#FFC7C7</color>
+    <color name="red10">#FE7878</color>
+    <color name="red15">#FE2424</color>
+    <color name="red20">#E00202</color>
+
+    <color name="orange5">#FBE0BF</color>
+    <color name="orange10">#FECC91</color>
+    <color name="orange15">#FFA439</color>
+    <color name="orange20">#D67401</color>
+
+
+    <color name="yellow5">#FCFDC4</color>
+    <color name="yellow10">#FAFD8C</color>
+    <color name="yellow15">#FAFF38</color>
+    <color name="yellow20">#D3D801</color>
+
+
+
+    <color name="lime5">#EEFFBF</color>
+    <color name="lime10">#DCFE7C</color>
+    <color name="lime15">#C5FE25</color>
+    <color name="lime20">#9CD301</color>
+
+
+    <color name="green5">#CAFEB9</color>
+    <color name="green10">#99FD7A</color>
+    <color name="green15">#5FFF2E</color>
+    <color name="green20">#34DB01</color>
+
+
+    <color name="aquamarine5">#CDFFF5</color>
+    <color name="aquamarine10">#90FFE9</color>
+    <color name="aquamarine15">#33FED6</color>
+    <color name="aquamarine20">#02D9AF</color>
+
+    <color name="cyne5">#D5FEFE</color>
+    <color name="cyne10">#9EFEFD</color>
+    <color name="cyne15">#2EFFFD</color>
+    <color name="cyne20">#00DBD9</color>
+
+
+    <color name="skyblue5">#DEF7FE</color>
+    <color name="skyblue10">#A1EAFF</color>
+    <color name="skyblue15">#34D1FD</color>
+    <color name="skyblue20">#02AFDF</color>
+
+    <color name="blue5">#D9DAFE</color>
+    <color name="blue10">#989CFD</color>
+    <color name="blue15">#313AFF</color>
+    <color name="blue20">#010BD9</color>
+
+
+    <color name="purple5">#F0C8FD</color>
+    <color name="purple10">#E18FFE</color>
+    <color name="purple15">#C834FE</color>
+    <color name="purple20">#A101DB</color>
+
+    <color name="orchid5">#FBD0FD</color>
+    <color name="orchid10">#FAA4FE</color>
+    <color name="orchid15">#F331FC</color>
+    <color name="orchid20">#CF00D8</color>
+
+
+    <color name="pink5">#FFD0F6</color>
+    <color name="pink10">#FD89E8</color>
+    <color name="pink15">#FF28D8</color>
+    <color name="pink20">#D501AF</color>
+
+
+    <color name="violet5">#FCD4E5</color>
+    <color name="violet10">#FD94BF</color>
+    <color name="violet15">#FE3A8A</color>
+    <color name="violet20">#D60158</color>
+</resources>
