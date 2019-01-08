@@ -1,6 +1,8 @@
-package datanapps.colorpicker;
+package datanapps.colorpicker.instagramcolorpicker;
 
 import android.content.Context;
+import android.graphics.drawable.GradientDrawable;
+import android.graphics.drawable.LayerDrawable;
 import android.support.annotation.NonNull;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.RecyclerView;
@@ -11,8 +13,10 @@ import android.view.ViewGroup;
 import java.util.ArrayList;
 import java.util.List;
 
+import datanapps.colorpicker.R;
 
-public class ColorPickerAdapter extends RecyclerView.Adapter<ColorPickerAdapter.ViewHolder> {
+
+public class InstagramPickerAdapter extends RecyclerView.Adapter<InstagramPickerAdapter.ViewHolder> {
 
 
     private LayoutInflater colorViewInflater;
@@ -24,12 +28,12 @@ public class ColorPickerAdapter extends RecyclerView.Adapter<ColorPickerAdapter.
         void onColorPickerClickListener(int colorCode);
     }
 
-    ColorPickerAdapter(@NonNull Context context) {
+    InstagramPickerAdapter(@NonNull Context context) {
         this(context, setColorInList(context));
         this.colorViewInflater = LayoutInflater.from(context);
     }
 
-    private ColorPickerAdapter(@NonNull Context context, @NonNull List<Integer> colorPickerColors) {
+    private InstagramPickerAdapter(@NonNull Context context, @NonNull List<Integer> colorPickerColors) {
         this.colorViewInflater = LayoutInflater.from(context);
         this.colorCodeList = colorPickerColors;
     }
@@ -37,13 +41,16 @@ public class ColorPickerAdapter extends RecyclerView.Adapter<ColorPickerAdapter.
 
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = colorViewInflater.inflate(R.layout.layout_list_color_picker, parent, false);
+        View view = colorViewInflater.inflate(R.layout.layout_instagram_picker, parent, false);
         return new ViewHolder(view);
     }
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        holder.view.setBackgroundColor(colorCodeList.get(position));
+
+  LayerDrawable bgDrawable = (LayerDrawable) holder.view.getBackground();
+        final GradientDrawable shape = (GradientDrawable)   bgDrawable.findDrawableByLayerId(R.id.shape_id);
+        shape.setColor(colorCodeList.get(position));
     }
 
     @Override

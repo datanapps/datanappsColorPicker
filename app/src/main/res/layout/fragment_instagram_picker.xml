@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_height="wrap_content">
+
+
+
+    <View
+        android:id="@+id/color_view_1"
+        android:layout_width="@dimen/circle_view_size"
+        android:layout_height="@dimen/circle_view_size"
+        android:background="@drawable/ic_circle"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+         />
+
+    <View
+        android:id="@+id/color_view_2"
+        android:layout_width="@dimen/circle_view_size"
+        android:layout_height="@dimen/circle_view_size"
+        android:layout_marginLeft="@dimen/circle_view_gap"
+        android:layout_marginStart="@dimen/circle_view_gap"
+        android:background="@drawable/ic_circle"
+        />
+    <View
+        android:id="@+id/color_view_3"
+        android:layout_width="@dimen/circle_view_size"
+        android:layout_height="@dimen/circle_view_size"
+        android:layout_marginLeft="@dimen/circle_view_gap"
+        android:layout_marginStart="@dimen/circle_view_gap"
+
+        android:background="@drawable/ic_circle"
+        />
+    <View
+        android:id="@+id/color_view_4"
+        android:layout_width="@dimen/circle_view_size"
+        android:layout_height="@dimen/circle_view_size"
+        android:layout_marginLeft="@dimen/circle_view_gap"
+        android:layout_marginStart="@dimen/circle_view_gap"
+
+        android:background="@drawable/ic_circle"
+        />
+    <View
+        android:id="@+id/color_view_5"
+        android:layout_width="@dimen/circle_view_size"
+        android:layout_height="@dimen/circle_view_size"
+        android:layout_marginLeft="@dimen/circle_view_gap"
+        android:layout_marginStart="@dimen/circle_view_gap"
+
+        android:background="@drawable/ic_circle"
+        />
+
+    <View
+        android:id="@+id/color_view_6"
+        android:layout_width="@dimen/circle_view_size"
+        android:layout_height="@dimen/circle_view_size"
+        android:layout_marginLeft="@dimen/circle_view_gap"
+        android:layout_marginStart="@dimen/circle_view_gap"
+
+        android:background="@drawable/ic_circle"
+        />
+
+    <View
+        android:id="@+id/color_view_7"
+        android:layout_width="@dimen/circle_view_size"
+        android:layout_height="@dimen/circle_view_size"
+        android:layout_marginLeft="@dimen/circle_view_gap"
+        android:layout_marginStart="@dimen/circle_view_gap"
+
+        android:background="@drawable/ic_circle"
+        />
+    <View
+        android:id="@+id/color_view_8"
+        android:layout_width="@dimen/circle_view_size"
+        android:layout_height="@dimen/circle_view_size"
+        android:layout_marginLeft="@dimen/circle_view_gap"
+        android:layout_marginStart="@dimen/circle_view_gap"
+
+        android:background="@drawable/ic_circle"
+        />
+    <View
+        android:id="@+id/color_view_9"
+        android:layout_width="@dimen/circle_view_size"
+        android:layout_height="@dimen/circle_view_size"
+        android:layout_marginLeft="@dimen/circle_view_gap"
+        android:layout_marginStart="@dimen/circle_view_gap"
+
+        android:background="@drawable/ic_circle"
+        />
+
+</LinearLayout>

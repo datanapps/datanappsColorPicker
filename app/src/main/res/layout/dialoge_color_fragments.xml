@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     android:padding="10dp"
     android:background="@color/grey5"
-    tools:context=".MainActivity">
+    tools:context=".normalcolorpicker.SimpleColorPickerActivity">
 
 
     <TextView

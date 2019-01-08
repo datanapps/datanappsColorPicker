@@ -5,7 +5,6 @@
     <color name="colorAccent">#D81B60</color>
 
 
-
     <color name="colorWhite">#FFFFFF</color>
     <color name="colorBlack">#000000</color>
 
@@ -30,7 +29,6 @@
     <color name="yellow10">#FAFD8C</color>
     <color name="yellow15">#FAFF38</color>
     <color name="yellow20">#D3D801</color>
-
 
 
     <color name="lime5">#EEFFBF</color>
@@ -63,7 +61,7 @@
 
     <color name="blue5">#D9DAFE</color>
     <color name="blue10">#989CFD</color>
-    <color name="blue15">#313AFF</color>
+    <color name="blue15">#313AFF</color>#3498DB
     <color name="blue20">#010BD9</color>
 
 
@@ -88,4 +86,158 @@
     <color name="violet10">#FD94BF</color>
     <color name="violet15">#FE3A8A</color>
     <color name="violet20">#D60158</color>
+
+
+    <integer-array name="color_all">
+        <item>@color/grey5</item>
+        <item>@color/grey10</item>
+        <item>@color/grey15</item>
+        <item>@color/grey20</item>
+
+        <item>@color/red5</item>
+        <item>@color/grey10</item>
+        <item>@color/grey15</item>
+        <item>@color/grey5</item>
+
+
+        <item>@color/orange5</item>
+        <item>@color/grey5</item>
+        <item>@color/grey15</item>
+        <item>@color/grey5</item>
+
+
+        <item>@color/yellow5</item>
+        <item>@color/grey5</item>
+        <item>@color/yellow15</item>
+        <item>@color/grey5</item>
+
+
+        <item>@color/lime5</item>
+        <item>@color/grey5</item>
+        <item>@color/lime15</item>
+        <item>@color/lime20</item>
+
+
+        <item>@color/green5</item>
+        <item>@color/grey5</item>
+        <item>@color/grey5</item>
+        <item>@color/grey5</item>
+
+
+        <item>@color/aquamarine5</item>
+        <item>@color/grey5</item>
+        <item>@color/grey5</item>
+        <item>@color/grey5</item>
+
+        <item>@color/cyne5</item>
+        <item>@color/grey5</item>
+        <item>@color/grey5</item>
+        <item>@color/grey5</item>
+
+
+        <item>@color/skyblue5</item>
+        <item>@color/grey5</item>
+        <item>@color/grey5</item>
+        <item>@color/grey5</item>
+
+        <item>@color/blue5</item>
+        <item>@color/grey5</item>
+        <item>@color/grey5</item>
+        <item>@color/grey5</item>
+
+
+        <item>@color/purple5</item>
+        <item>@color/grey5</item>
+        <item>@color/grey5</item>
+        <item>@color/grey5</item>
+
+
+        <item>@color/orchid5</item>
+        <item>@color/grey5</item>
+        <item>@color/grey5</item>
+        <item>@color/grey5</item>
+
+
+        <item>@color/pink5</item>
+        <item>@color/grey5</item>
+        <item>@color/grey5</item>
+        <item>@color/grey5</item>
+
+        <item>@color/violet5</item>
+        <item>@color/grey5</item>
+        <item>@color/grey5</item>
+        <item>@color/grey5</item>
+
+
+    </integer-array>
+
+
+    <integer-array name="color_instagram">
+        <item>@color/ins_color_1</item>
+        <item>@color/ins_color_2</item>
+        <item>@color/ins_color_3</item>
+        <item>@color/ins_color_4</item>
+        <item>@color/ins_color_5</item>
+        <item>@color/ins_color_6</item>
+        <item>@color/ins_color_7</item>
+        <item>@color/ins_color_8</item>
+        <item>@color/ins_color_9</item>
+
+
+        <item>@color/ins_color_10</item>
+        <item>@color/ins_color_11</item>
+        <item>@color/ins_color_12</item>
+        <item>@color/ins_color_13</item>
+        <item>@color/ins_color_14</item>
+        <item>@color/ins_color_15</item>
+        <item>@color/ins_color_16</item>
+        <item>@color/ins_color_17</item>
+        <item>@color/ins_color_18</item>
+
+
+        <item>@color/ins_color_19</item>
+        <item>@color/ins_color_20</item>
+        <item>@color/ins_color_21</item>
+        <item>@color/ins_color_22</item>
+        <item>@color/ins_color_23</item>
+        <item>@color/ins_color_24</item>
+        <item>@color/ins_color_25</item>
+        <item>@color/ins_color_26</item>
+        <item>@color/ins_color_27</item>
+
+
+    </integer-array>
+
+
+    <color name="ins_color_1">#ffffff</color>
+    <color name="ins_color_2">#000000</color>
+    <color name="ins_color_3">#3498DB</color>
+    <color name="ins_color_4">#06D100</color>
+    <color name="ins_color_5">#FFE002</color>
+    <color name="ins_color_6">#FF9402</color>
+    <color name="ins_color_7">#FF283F</color>
+    <color name="ins_color_8">#DF0039</color>
+    <color name="ins_color_9">#B600C2</color>
+
+
+    <color name="ins_color_10">#F90044</color>
+    <color name="ins_color_11">#FD6790</color>
+    <color name="ins_color_12">#FFC4D4</color>
+    <color name="ins_color_13">#FFEBAE</color>
+    <color name="ins_color_14">#FCD55E</color>
+    <color name="ins_color_15">#E1B802</color>
+    <color name="ins_color_16">#AC8D02</color>
+    <color name="ins_color_17">#776201</color>
+    <color name="ins_color_18">#4C7701</color>
+
+    <color name="ins_color_19">#393938</color>
+    <color name="ins_color_20">#565555</color>
+    <color name="ins_color_21">#727171</color>
+    <color name="ins_color_22">#868686</color>
+    <color name="ins_color_23">#9B9B9B</color>
+    <color name="ins_color_24">#A9A8A8</color>
+    <color name="ins_color_25">#C4C3C3</color>
+    <color name="ins_color_26">#DCDCDC</color>
+    <color name="ins_color_27">#F1F0F0</color>
+
 </resources>

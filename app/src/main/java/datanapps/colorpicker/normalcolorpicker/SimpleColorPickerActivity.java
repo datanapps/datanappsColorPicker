@@ -1,4 +1,4 @@
-package datanapps.colorpicker;
+package datanapps.colorpicker.normalcolorpicker;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -8,7 +8,9 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+import datanapps.colorpicker.R;
+
+public class SimpleColorPickerActivity extends AppCompatActivity {
 
 
     private TextView tvBgColor;
