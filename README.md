@@ -2,19 +2,15 @@
 A simple Android library for android Color Picker
 
 
-
-
-
-
 # Instagram ColorPicker 
 
-![alt text](https://github.com/datanapps/datanappsColorPicker/blob/master/screens/color_picker_2.gif)
+![alt text](https://github.com/datanapps/datanappsColorPicker/blob/master/screens/color_picker_3.gif)
 
 
 
 # Instagram ColorPicker in recycle view ( scroll one by one)
 
-![alt text](https://github.com/datanapps/datanappsColorPicker/blob/master/screens/color_picker_3.gif)
+![alt text](https://github.com/datanapps/datanappsColorPicker/blob/master/screens/color_picker_2.gif)
 
 
 # Normal ColorPicker 
