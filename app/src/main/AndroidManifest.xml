@@ -22,7 +22,9 @@
 
 
         <activity android:name=".normalcolorpicker.SimpleColorPickerActivity"/>
-        <activity android:name=".instagramcolorpicker.InstagramColorPickerActivity"/>
+        <activity android:name=".sameinstagram.InstagramColorPickerActivity"/>
+
+        <activity android:name=".instagramwithmorecolor.InstagramWithMoreColorPickerActivity"/>
 
 
     </application>

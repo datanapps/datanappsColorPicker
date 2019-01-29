@@ -18,11 +18,21 @@
 
 
     <Button
+        android:id="@+id/btn_normal_color_like_instagram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Instagram with more color"
+        app:layout_constraintTop_toBottomOf="@+id/btn_normal_color_picker"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <Button
         android:id="@+id/btn_normal_color_instagram"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Instagram"
-        app:layout_constraintTop_toBottomOf="@+id/btn_normal_color_picker"
+        android:text="Same Instagram"
+        app:layout_constraintTop_toBottomOf="@+id/btn_normal_color_like_instagram"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
     />
