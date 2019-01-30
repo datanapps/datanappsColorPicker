@@ -108,6 +108,21 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/datanapps/colorpicker/seekbarcolor/SeekbarColorPickerActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/datanapps/colorpicker/seekbarcolor/SeekbarPickerDialogFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/datanapps/colorpicker/seekbarcolor/seekBarPickerAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/drawable/ic_circle.xml">
           <value>
             <set />
@@ -134,6 +149,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/dialoge_seekbar_color_fragments.xml">
           <value>
             <set />
           </value>

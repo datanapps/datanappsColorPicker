@@ -9,6 +9,7 @@ import datanapps.colorpicker.instagramwithmorecolor.InstagramWithMoreColorPicker
 import datanapps.colorpicker.sameinstagram.InstagramColorPickerActivity;
 import datanapps.colorpicker.normalcolorpicker.SimpleColorPickerActivity;
 
+
 public class ColorSelectionActivity extends AppCompatActivity implements View.OnClickListener {
 
 
@@ -23,6 +24,7 @@ public class ColorSelectionActivity extends AppCompatActivity implements View.On
         findViewById(R.id.btn_normal_color_like_instagram).setOnClickListener(this);
 
         findViewById(R.id.btn_normal_color_instagram).setOnClickListener(this);
+
     }
 
     @Override

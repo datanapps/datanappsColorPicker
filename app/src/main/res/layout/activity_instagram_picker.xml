@@ -10,40 +10,6 @@
 
 
     <android.support.constraint.ConstraintLayout
-        android:id="@+id/instagram_recycleview_picker"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-
-        app:layout_constraintBottom_toTopOf="@+id/instagram_viewpager_picker">
-
-
-
-        <android.support.v7.widget.RecyclerView
-            android:id="@+id/recycler_view_instagram_color_picker"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:layout_marginStart="40dp"
-            android:foregroundGravity="center"
-            android:scrollbars="vertical"
-            app:layout_constraintBottom_toBottomOf="parent" />
-
-
-        <ImageView
-            android:id="@+id/img_picker_2"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:padding="4dp"
-            android:background="@drawable/ic_circle"
-            android:contentDescription="@string/app_name"
-            android:src="@drawable/ic_colorize"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-    </android.support.constraint.ConstraintLayout>
-
-
-
-    <android.support.constraint.ConstraintLayout
         android:id="@+id/instagram_viewpager_picker"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
