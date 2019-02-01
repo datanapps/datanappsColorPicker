@@ -83,6 +83,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/datanapps/colorpicker/normalcolorpicker/ColorPickerDialogFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/datanapps/colorpicker/normalcolorpicker/MainActivity.java">
           <value>
             <set />
@@ -133,6 +138,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/drawable/ic_rectangle.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_color_selection.xml">
           <value>
             <set />
@@ -149,6 +159,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/dialoge_color_fragments.xml">
           <value>
             <set />
           </value>
@@ -258,6 +273,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$USER_HOME$/MCP/cna_android_v3/app/src/main/res/layout/layout_selected_media_item.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/MCP/cna_android_v3/app/src/main/res/values/strings.xml">
           <value>
             <set />
@@ -344,6 +364,11 @@
           </value>
         </entry>
         <entry key="$USER_HOME$/MCP/cna_android_v3/mediapicker/src/main/java/com/erikagtierrez/multiple_media_picker/OpenGallery.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/MCP/cna_android_v3/mediapicker/src/main/res/drawable/ic_video.xml">
           <value>
             <set />
           </value>

@@ -39,6 +39,8 @@ public class InstagramWithMoreColorPickerActivity extends AppCompatActivity {
         adapter.setOnColorPickerListener(new InstagramPickerAdapter.OnColorPickerListener() {
             @Override
             public void onColorPickerClickListener(int colorCode) {
+
+
                 LayerDrawable bgDrawable = (LayerDrawable) imgPicker2.getBackground();
                 final GradientDrawable shape = (GradientDrawable)   bgDrawable.findDrawableByLayerId(R.id.shape_id);
                 shape.setColor(colorCode);

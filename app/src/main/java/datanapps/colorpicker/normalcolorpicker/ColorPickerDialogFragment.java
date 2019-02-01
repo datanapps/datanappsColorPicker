@@ -1,5 +1,8 @@
 package datanapps.colorpicker.normalcolorpicker;
 
+import android.graphics.Color;
+import android.graphics.drawable.GradientDrawable;
+import android.graphics.drawable.LayerDrawable;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.design.widget.BottomSheetDialogFragment;
@@ -45,8 +48,6 @@ public class ColorPickerDialogFragment extends BottomSheetDialogFragment{
 
     private void setColorPickerRecycleView(View view){
 
-
-
         final TextView tvTextColor = view.findViewById(R.id.tv_app_name);
 
         ColorPickerAdapter adapter = new ColorPickerAdapter(getContext());
@@ -57,7 +58,11 @@ public class ColorPickerDialogFragment extends BottomSheetDialogFragment{
         adapter.setOnColorPickerListener(new ColorPickerAdapter.OnColorPickerListener() {
             @Override
             public void onColorPickerClickListener(int colorCode) {
-                tvTextColor.setTextColor(colorCode);
+                tvTextColor.setTextColor(isColorDark(colorCode)?Color.WHITE:Color.BLACK);
+                LayerDrawable bgDrawable = (LayerDrawable) tvTextColor.getBackground();
+                final GradientDrawable shape = (GradientDrawable)bgDrawable.findDrawableByLayerId(R.id.tv_done_shape);
+                shape.setColor(colorCode);
+
                 if(onColorPickerListener!=null){
                     onColorPickerListener.onColorPickerClickListener(colorCode);
                 }
@@ -65,6 +70,15 @@ public class ColorPickerDialogFragment extends BottomSheetDialogFragment{
         });
     }
 
+
+    public boolean isColorDark(int color){
+        double darkness = 1-(0.299*Color.red(color) + 0.587* Color.green(color) + 0.114*Color.blue(color))/255;
+        if(darkness<0.8){
+            return false; // It's a light color
+        }else{
+            return true; // It's a dark color
+        }
+    }
 
     public void setOnColorPickerListener(OnDialogeColorPickerListener onColorPickerListener) {
         this.onColorPickerListener = onColorPickerListener;
