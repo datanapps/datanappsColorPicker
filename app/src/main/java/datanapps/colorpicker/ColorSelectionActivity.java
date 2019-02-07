@@ -10,6 +10,11 @@ import datanapps.colorpicker.sameinstagram.InstagramColorPickerActivity;
 import datanapps.colorpicker.normalcolorpicker.SimpleColorPickerActivity;
 
 
+
+/*
+* This is main color picker selection screen  
+*
+* */
 public class ColorSelectionActivity extends AppCompatActivity implements View.OnClickListener {
 
 
