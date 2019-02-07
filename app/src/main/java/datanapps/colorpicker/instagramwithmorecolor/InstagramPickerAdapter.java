@@ -15,7 +15,9 @@ import java.util.List;
 
 import datanapps.colorpicker.R;
 
-
+/*
+ * This activity example of color picker like instagram with more color code and recycle view one color selection image
+ * */
 public class InstagramPickerAdapter extends RecyclerView.Adapter<InstagramPickerAdapter.ViewHolder> {
 
 

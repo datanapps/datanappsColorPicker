@@ -15,6 +15,10 @@ import android.widget.ImageView;
 import datanapps.colorpicker.R;
 import datanapps.colorpicker.instagramwithmorecolor.InstagramPickerAdapter;
 
+
+/*
+* This activity example of color picker like instagram with color code and 3 set od color with one color selection image
+* */
 public class InstagramColorPickerActivity extends AppCompatActivity {
 
 
