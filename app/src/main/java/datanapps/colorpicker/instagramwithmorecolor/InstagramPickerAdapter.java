@@ -35,20 +35,20 @@ public class InstagramPickerAdapter extends RecyclerView.Adapter<InstagramPicker
         this.colorViewInflater = LayoutInflater.from(context);
     }
 
-    private InstagramPickerAdapter(@NonNull Context context, @NonNull List<Integer> colorPickerColors) {
+    private InstagramPickerAdapter(Context context,  List<Integer> colorPickerColors) {
         this.colorViewInflater = LayoutInflater.from(context);
         this.colorCodeList = colorPickerColors;
     }
 
 
     @Override
-    public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view = colorViewInflater.inflate(R.layout.layout_instagram_picker, parent, false);
         return new ViewHolder(view);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
+    public void onBindViewHolder( ViewHolder holder, int position) {
 
   LayerDrawable bgDrawable = (LayerDrawable) holder.view.getBackground();
         final GradientDrawable shape = (GradientDrawable)   bgDrawable.findDrawableByLayerId(R.id.shape_id);
@@ -81,7 +81,7 @@ public class InstagramPickerAdapter extends RecyclerView.Adapter<InstagramPicker
     }
 
 
-    public static List<Integer> setColorInList(Context context) {
+    private static List<Integer> setColorInList(Context context) {
         ArrayList<Integer> colorPickerColors = new ArrayList<>();
 
         colorPickerColors.add(ContextCompat.getColor(context, R.color.grey5));

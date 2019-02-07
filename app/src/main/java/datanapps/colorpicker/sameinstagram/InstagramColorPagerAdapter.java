@@ -11,7 +11,7 @@ public class InstagramColorPagerAdapter extends FragmentPagerAdapter {
 
     private  InstagramColorPicker onColorPickerListener;
 
-    int[] colorList;
+    private int[] colorList;
 
 
     public InstagramColorPagerAdapter(Context context, FragmentManager fm, InstagramColorPicker onColorPickerListener) {

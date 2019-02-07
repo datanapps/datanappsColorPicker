@@ -74,7 +74,7 @@ public class ColorPickerAdapter extends RecyclerView.Adapter<ColorPickerAdapter.
     }
 
 
-    public static List<Integer> setColorInList(Context context) {
+    private static List<Integer> setColorInList(Context context) {
         ArrayList<Integer> colorPickerColors = new ArrayList<>();
 
         colorPickerColors.add(ContextCompat.getColor(context, R.color.grey5));

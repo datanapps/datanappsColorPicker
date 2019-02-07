@@ -83,6 +83,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/datanapps/colorpicker/normalcolorpicker/ColorPickerAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/datanapps/colorpicker/normalcolorpicker/ColorPickerDialogFragment.java">
           <value>
             <set />
@@ -99,6 +104,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/datanapps/colorpicker/sameinstagram/ColorFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/datanapps/colorpicker/sameinstagram/InstagramColorPagerAdapter.java">
           <value>
             <set />
           </value>
